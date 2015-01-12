@@ -184,9 +184,7 @@ class LuminateMantle {
 
     /*
      * 		This method is the heavy-lifting section of the plugin. After the URL has been correctly created and the
-     * 		parameters are encoded properly, this method actually makes the call to the API. It first checks to see
-     * 		if it has access to cURL, if so it uses that, if not it makes a simply fopen call. cURL is prefferable,
-     * 		because we can get more information on the call
+     * 		parameters are encoded properly, this method actually makes the call to the API.
      *
      * 		@uses LuminateMantle::response_format
      * 		@uses LuminateMantle::getUrl()
