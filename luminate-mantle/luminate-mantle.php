@@ -1,7 +1,7 @@
 <?php
 /*
   Plugin Name: Luminate Mantle
-  Plugin URI: https://github.com/beckenrode
+  Plugin URI: https://github.com/beckenrode/luminateMantle
   Description: Luminate Mantle is a Wordpress Plugin for use with Luminate Online. It provides a wrapper around the Luminate Online REST API.
   Author: Brandon Eckenrode
   Version: 1.0
