@@ -4,9 +4,6 @@ Luminate Mantle is a Wordpress Plugin for use with Luminate Online. It provides 
 luminateMantle Example Use
 -------------------
 
-`luminateExtend.init` is a method used to define global settings used by the library. It needs only be 
-called once per page, e.g. immediately below where the library is included in the head.
-
 ```  php
 /* Verify that the luminateMantle Plugin is activated */
 if ( ! apply_filters( 'luminate-mantle-installed', false ) ) {
