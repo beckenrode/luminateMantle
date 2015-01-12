@@ -12,6 +12,7 @@ if ( ! apply_filters( 'luminate-mantle-installed', false ) ) {
 	/* Initalize the plugin */
 	$LuminateMantle = new LuminateMantle();
 
+	/* Setup the request */
 	$data = array(
 		'servlet' => 'teamraiser',
 		'method' => 'getTeamraisersByInfo',
@@ -23,7 +24,8 @@ if ( ! apply_filters( 'luminate-mantle-installed', false ) ) {
 	);
                         
 	$request = array('data' => http_build_query($data));
-                        
+               
+	/* Dump the result */
 	echo $LuminateMantle->luminateMantle($request);
 }
 ```
