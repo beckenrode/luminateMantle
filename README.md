@@ -13,17 +13,17 @@ if ( ! apply_filters( 'luminate-mantle-installed', false ) ) {
 	$LuminateMantle = new LuminateMantle();
 
 	/* Setup the request */
-	$data = array(
+	$data = [
 		'servlet' => 'teamraiser',
 		'method' => 'getTeamraisersByInfo',
-		'params' => array(
+		'params' => [
 			'list_page_size' => 10,
 			'event_type' => '',
 			'name' => '%search term%'
-		)
-	);
+		]
+	];
                         
-	$request = array('data' => http_build_query($data));
+	$request = ['data' => http_build_query($data)];
                
 	/* Dump the result */
 	echo $LuminateMantle->luminateMantle($request);
