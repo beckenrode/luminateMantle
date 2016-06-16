@@ -25,8 +25,8 @@ if ( ! apply_filters( 'luminate-mantle-installed', false ) ) {
                         
 	$request = ['data' => http_build_query($data)];
               
-        /* Make the request */
-        $result = $LuminateMantle->luminateMantle($request);
+	/* Make the request */
+	$result = $LuminateMantle->luminateMantle($request);
         
 	/* Dump the result */
 	echo $result;
