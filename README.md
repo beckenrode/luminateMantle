@@ -1,5 +1,5 @@
 # luminateMantle
-Luminate Mantle is a Wordpress Plugin for use with Luminate Online. It provides a wrapper around the Luminate Online REST API.
+Luminate Mantle is a Wordpress Plugin for use with the Luminate Online API. It provides a wrapper around the Luminate Online REST API.
 
 luminateMantle Example Usage
 ----------------------------
